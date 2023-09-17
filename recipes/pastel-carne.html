@@ -1,57 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pastel de carne</title>
+    <link rel="stylesheet" href="styles-recipes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Pastel de carne</h1>
-    <img src="imagenes/pastelCarne.webp" alt="Pastel de carne">
-    <hr>
-    <h2>Descripcion</h2>
-    
-        <p><strong>Porciones:</strong>10</p>
-        <p><strong>Tiempo de cocina:</strong>2 horas</p>
-        <p>El objetivo principal de este pastel de carne italiano inspirado en albóndigas es mostrarte lo que sucede cuando haces pastel de carne como lo hacían tus abuelos. Durante la Gran Depresión, este tipo de plato era una estrategia popular para aprovechar la poca carne que se tenía para lograr una comida lo más abundante posible.</p>
-    <hr>
-    <h2>Ingredientes</h2>
-    <ul>
-        <li>1 cucharada de aceite de oliva</li>
-        <li>1 cucharada de mantequilla</li>
-        <li>1 cebolla, cortada en cubitos</li>
-        <li>sal al gusto</li>
-        <li>4 dientes de ajo, picados</li>
-        <li>1 ½ tazas de pan rallado blanco muy seco</li>
-        <li>1 ½ cups milk</li>
-        <li>2 libras de mandril molido</li>
-        <li>½ taza de perejil fresco picado</li>
-        <li>2 onzas de queso parmesano rallado</li>
-        <li>2 huevos grandes, batidos</li>
-        <li>2 cucharaditas de sal</li>
-        <li>1 cucharadita de pimienta negra recién molida</li>
-        <li>1 pizca de pimienta de cayena o al gusto</li>
-        <li>3 tazas de salsa de tomate, o al gusto</li>
-    </ul>
-    <hr>
-    <h2>Preparacion</h2>
-        <ol>
-            <li>Precaliente el horno a 325 grados F (165 grados C). Engrase una fuente para hornear de 9x13 pulgadas.</li>
+    <main>
+        <h1 class="titulo">Pastel de carne</h1>
 
-            <li>Caliente el aceite de oliva y la mantequilla juntos en una sartén grande a fuego medio-alto. Saltee la cebolla con una pizca de sal en aceite caliente y mantequilla hasta que esté dorada y suave, de 5 a 10 minutos. Agregue el ajo y saltee hasta que esté fragante, aproximadamente 30 segundos. Retire la sartén del fuego y enfríe la mezcla de cebolla a temperatura ambiente.</li>
+        <div class="descripcion">
+            <img src="imagenes/pastelCarne.webp" alt="Pastel de carne" class="descripcion__img">
 
-            <li>Coloque el pan rallado en un tazón grande. Agregue la leche y revuelva con un tenedor hasta que se combinen. Deje reposar hasta que toda la leche se absorba en el pan rallado, de 15 a 20 minutos.</li>
+            <p class="descripcion__parrafo">El objetivo principal de este pastel de carne italiano inspirado en
+                albóndigas es mostrarte lo que sucede cuando haces pastel de carne como lo hacían tus abuelos. Durante
+                la Gran Depresión, este tipo de plato era una estrategia popular para aprovechar la poca carne que se
+                tenía para lograr una comida lo más abundante posible.</p>
+        </div>
 
-            <li>Combine la carne molida, la mezcla de cebolla enfriada, el perejil, el queso parmesano, los huevos, 2 cucharaditas de sal, la pimienta negra y la pimienta de cayena en un tazón. Coge un puñado de pan rallado y exprímelo muy suavemente para eliminar el exceso de leche. Repita con el pan rallado restante, transfiera el pan rallado a la mezcla molida y deseche el exceso de leche. Revuelva la mezcla de carne molida hasta que esté uniformemente combinada.</li>
-
-            <li>Coloque la mezcla de carne en una fuente para hornear preparada y forme un pastel de carne de 3x4x10 pulgadas con la carne. Vierta la salsa de tomate sobre el pan y en el fondo del plato.</li>
-
-        
-            <li>Hornee en el horno precalentado hasta que ya no esté rosado en el centro, aproximadamente 1 hora y 10 minutos. Un termómetro de lectura instantánea insertado en el centro debe indicar al menos 160 grados F (70 grados C). Deje reposar el pastel de carne durante al menos 10 minutos antes de cortarlo.</li>
-        </ol>
         <hr>
-        <img src="imagenes/pastelCarne2.webp" alt="Pimientos Rellenos">
+        <div class="ingredientes">
+            <h2 class="titulo__ingredientes">Ingredientes <img src="imagenes/logo-ingredientes.png"
+                    alt="logo-ingredientes" class="titulo__ingredientes__img"></h2>
+            <ul class="ingredientes__lista">
+                <li>1 cucharada de aceite de oliva</li>
+                <li>1 cucharada de mantequilla</li>
+                <li>1 cebolla, cortada en cubitos</li>
+                <li>sal al gusto</li>
+                <li>4 dientes de ajo, picados</li>
+                <li>1 ½ tazas de pan rallado blanco muy seco</li>
+                <li>1 ½ cups milk</li>
+                <li>2 libras de mandril molido</li>
+                <li>½ taza de perejil fresco picado</li>
+                <li>2 onzas de queso parmesano rallado</li>
+                <li>2 huevos grandes, batidos</li>
+                <li>2 cucharaditas de sal</li>
+                <li>1 cucharadita de pimienta negra recién molida</li>
+                <li>1 pizca de pimienta de cayena o al gusto</li>
+                <li>3 tazas de salsa de tomate, o al gusto</li>
+            </ul>
+        </div>
         <hr>
-        <a href="../index.html">Regresar</a>
+        <div class="preparacion">
+            <h2 class="preparacion__titulo">Preparacion <img src="imagenes/logo-preparacion.png" alt="logo-preparacion"
+                    class="preparacion__img"></h2>
+            <ol class="preparacion__lista">
+                <li>Precaliente el horno a 325 grados F (165 grados C). Engrase una fuente para hornear de 9x13
+                    pulgadas.</li><br>
+
+                <li>Caliente el aceite de oliva y la mantequilla juntos en una sartén grande a fuego medio-alto. Saltee
+                    la cebolla con una pizca de sal en aceite caliente y mantequilla hasta que esté dorada y suave, de 5
+                    a 10 minutos. Agregue el ajo y saltee hasta que esté fragante, aproximadamente 30 segundos. Retire
+                    la sartén del fuego y enfríe la mezcla de cebolla a temperatura ambiente.</li><br>
+
+                <li>Coloque el pan rallado en un tazón grande. Agregue la leche y revuelva con un tenedor hasta que se
+                    combinen. Deje reposar hasta que toda la leche se absorba en el pan rallado, de 15 a 20 minutos.
+                </li><br>
+
+                <li>Combine la carne molida, la mezcla de cebolla enfriada, el perejil, el queso parmesano, los huevos,
+                    2 cucharaditas de sal, la pimienta negra y la pimienta de cayena en un tazón. Coge un puñado de pan
+                    rallado y exprímelo muy suavemente para eliminar el exceso de leche. Repita con el pan rallado
+                    restante, transfiera el pan rallado a la mezcla molida y deseche el exceso de leche. Revuelva la
+                    mezcla de carne molida hasta que esté uniformemente combinada.</li><br>
+
+                <li>Coloque la mezcla de carne en una fuente para hornear preparada y forme un pastel de carne de 3x4x10
+                    pulgadas con la carne. Vierta la salsa de tomate sobre el pan y en el fondo del plato.</li><br>
+
+
+                <li>Hornee en el horno precalentado hasta que ya no esté rosado en el centro, aproximadamente 1 hora y
+                    10 minutos. Un termómetro de lectura instantánea insertado en el centro debe indicar al menos 160
+                    grados F (70 grados C). Deje reposar el pastel de carne durante al menos 10 minutos antes de
+                    cortarlo.</li><br>
+            </ol>
+        </div>
+        <hr>
+        <img src="imagenes/pastelCarne2.webp" alt="Pimientos Rellenos" class="img__footer">
+        <h3 class="titulo__footer">!A Disfrutar!</h3>
+        <hr>
+        <a href="../index.html" class="boton__regresar">Regresar</a>
+    </main>
 </body>
+
 </html>
